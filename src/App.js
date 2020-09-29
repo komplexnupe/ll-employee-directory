@@ -1,18 +1,36 @@
 import React from 'react';
 import EmployeeTable from "./components/EmployeeTable";
 import employees from "./employees.json"
+import EmployeeJumbo from './components/EmployeeJumbo';
 
 import './App.css';
 
 
 function App() {
   const [filter, filterSet] = React.useState("");
+  // const [data, dataList] = useState(employees);
+
+  // const sortByJob = () => {
+  //   // const title = event.target.value
+  //   const sorted = [...data].sort((a, b) => {
+  //     if (a.jobTitle < b.jobTitle) {
+  //       return -1;
+  //     }
+  //     if (a.jobTitle > b.jobTitle) {
+  //       return 1;
+  //     }
+  //     return 0;
+  //   });
+  //   dataList(sorted);
+  // };
+
   return (
-    <div
+    <span>
+    <EmployeeJumbo/>
+    <div 
       style={{
         margin: "auto",
         width: 1000,
-        paddingTop: "1rem",
       }}>
       <h1 className="title">Employee Directory</h1>
       <input 
@@ -20,8 +38,8 @@ function App() {
         value={filter}
         onChange={(evt) => filterSet(evt.target.value)}
       />
-      <table width="100%">
-        <thead>
+      <table className="mt-2" width="100%">
+        <thead className="bg-secondary text-white">
           <tr>
             <th>User ID</th>
             <th>Job Title</th>
@@ -51,6 +69,7 @@ function App() {
       })}
       </table>
     </div>
+    </span>
   );
 }
 
