@@ -1,0 +1,62 @@
+[
+    {
+    "userId": "krish",
+    "jobTitle": "Developer",
+    "firstName": "Krish",
+    "lastName": "Lee",
+    "employeeCode": "E1",
+    "region": "NC",
+    "phoneNumber": "555-4293",
+    "emailAddress": "krish.lee@lovedev.com"
+    },
+    {
+    "userId": "devid",
+    "jobTitle": "Developer",
+    "firstName": "David",
+    "lastName": "Rome",
+    "employeeCode": "E2",
+    "region": "NC",
+    "phoneNumber": "555-3425",
+    "emailAddress": "david.rome@lovedev.com"
+    },
+    {
+    "userId": "lynn",
+    "jobTitle": "Program Directory",
+    "firstName": "Lynn",
+    "lastName": "Johnson",
+    "employeeCode": "E3",
+    "region": "NC",
+    "phoneNumber": "555-3241",
+    "emailAddress": "lynn.johnson@lovedev.com"
+    },
+    {
+    "userId": "robert",
+    "jobTitle": "Front-end Developer",
+    "firstName": "Robert",
+    "lastName": "Mills",
+    "employeeCode": "E4",
+    "region": "NC",
+    "phoneNumber": "555-7897",
+    "emailAddress": "robert.mills@lovedev.com"
+    },
+    {
+    "userId": "lejeana",
+    "jobTitle": "Program Directory",
+    "firstName": "Lejeana",
+    "lastName": "Black",
+    "employeeCode": "E5",
+    "region": "NC",
+    "phoneNumber": "555-9302",
+    "emailAddress": "lejeana.black@lovedev.com"
+    },
+    {
+    "userId": "melvin",
+    "jobTitle": "Program Directory",
+    "firstName": "Melvin",
+    "lastName": "James",
+    "employeeCode": "E6",
+    "region": "NC",
+    "phoneNumber": "555-7824",
+    "emailAddress": "lynn.johnson@lovedev.com"
+    }
+    ]
